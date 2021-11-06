@@ -30,7 +30,7 @@ namespace FoodOrder.Entities
                 + ", Quantity: "
                 + Quantity
                 + ", Subtotal: $"
-                + SubTotal().ToString("F2", CultureInfo.InvariantCulture);
+                + subTotal().ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }
